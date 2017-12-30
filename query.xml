@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<SQL DATABASE="PSQL"> <!-- MYSQL or PSQL -->
+    <CONFIG>
+        <DB>rtrdb</DB>
+        <HOST>localhost</HOST>
+        <USER>rtruser</USER>
+        <PASSWORD>admin123</PASSWORD>
+    </CONFIG>
+    <QUERIES>
+        <INSERT>INSERT INTO role (name, description) VALUES ('user_user', 'User')</INSERT>
+        <INSERT>INSERT INTO role (name, description) VALUES ('user_admin', 'Admin')</INSERT>
+        <INSERT>INSERT INTO role (name, description) VALUES ('user_super_admin', 'Super Admin')</INSERT>
+        <SELECT>SELECT * FROM role</SELECT>
+        <!--
+            <DELETE>DELETE FROM role</DELETE>
+            <DROP></DROP>
+            <ALTER></ALTER>
+            <CREATE></CREATE>
+        -->
+    </QUERIES>
+</SQL>
