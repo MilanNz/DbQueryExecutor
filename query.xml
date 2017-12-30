@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <SQL DATABASE="PSQL"> <!-- MYSQL or PSQL -->
     <CONFIG>
-        <DB>rtrdb</DB>
+        <DB>database name</DB>
         <HOST>localhost</HOST>
-        <USER>rtruser</USER>
-        <PASSWORD>admin123</PASSWORD>
+        <USER>user</USER>
+        <PASSWORD>password</PASSWORD>
     </CONFIG>
     <QUERIES>
         <INSERT>INSERT INTO role (name, description) VALUES ('user_user', 'User')</INSERT>
